@@ -1,3 +1,8 @@
-for i in 1..100 do
-puts(i+1)
+100.times do |i|
+	i += 1
+	if (i % 2 == 0)
+		puts "even"
+	else
+		puts i
+	end
 end
