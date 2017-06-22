@@ -3,7 +3,7 @@
 	if (i % 3 == 0)
     	puts "Mined"
     elsif 
-    	(i == 5)
+    	(i % 5 == 0)
     	puts "Minds"
     else 
     	puts i
