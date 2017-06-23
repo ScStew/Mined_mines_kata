@@ -1,7 +1,7 @@
 100.times do |i|
 	i += 1
 	if (i % 5 == 0 && i % 3 == 0)
-		puts "Mined_Mines"
+		puts "Mined Minds"
 	elsif 
 	 	 (i % 3 == 0)
     	puts "Mined"
