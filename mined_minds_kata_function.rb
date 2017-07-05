@@ -1,5 +1,5 @@
 def mined_minds_kata(num)
-	if num == 15
+	if (num % 15 == 0)
 		"mined minds"
 	elsif(num % 3 == 0)	
 		"mined"
