@@ -1,6 +1,6 @@
 def kata_array(y)
 	arr = (1..100).to_a
-	if arr[y - 1] == 3
+	if arr[y - 1] % 3 == 0
 		"mined"
 	elsif arr[y - 1] == 5
 		"minds"
