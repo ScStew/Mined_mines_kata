@@ -24,4 +24,12 @@ class Kata_array_test < Minitest::Test
 	def test_return_9
 		assert_equal("mined",kata_array(9))
 	end
+
+	def test_return_10
+		assert_equal("minds", kata_array(10))
+	end
+
+	def test_return_20
+		assert_equal("minds", kata_array(20))
+	end
 end
