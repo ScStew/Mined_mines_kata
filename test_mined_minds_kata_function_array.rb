@@ -9,5 +9,7 @@ class Kata_array_test < Minitest::Test
 	def test_returns_1
 		assert_equal(1,kata_array(1))
 	end
-
+	def test_return_3
+		assert_equal("mined",kata_array(3))
+	end
 end
